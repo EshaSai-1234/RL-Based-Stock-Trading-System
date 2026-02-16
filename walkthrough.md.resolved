@@ -1,0 +1,45 @@
+# Q-Trader Execution Walkthrough
+
+I have executed the Q-Trader project as requested. Below are the results from the training and evaluation session.
+
+## Environment Setup
+- Created a new virtual environment: `.venv_new`
+- Installed dependencies: `tensorflow`, `numpy`, `matplotlib`, `pandas`
+
+## Training Results
+I ran the training for 1 full episode (Episode 0) before stopping as requested.
+
+- **Stock**: S&P 500 (^GSPC)
+- **Episode 0 Profit**: -$100.27
+- **Episode 1**: Interrupted as per instruction.
+
+> [!NOTE]
+> A negative profit in the first episode is expected as the reinforcement learning agent starts with random exploration.
+
+## Generated Outputs
+
+### 1. Results Summary (Text)
+Detailed logs of the training session and evaluation data.
+[results_summary.txt](file:///c:/Users/eshas/Downloads/RL/q-trader-master/results_summary.txt)
+
+## Visual Results
+
+````carousel
+![Profits Per Episode](profits_per_episode.png)
+<!-- slide -->
+![Evaluation Price Plot](trade_plot.png)
+<!-- slide -->
+![Trades (Last Episode)](trades_last_episode.png)
+````
+
+## Separate Results
+- ![Profits Per Episode](profits_per_episode.png)
+- ![Evaluation Price Plot](trade_plot.png)
+- ![Trades (Last Episode)](trades_last_episode.png)
+
+## Files Created
+- [results_summary.txt](file:///c:/Users/eshas/Downloads/RL/q-trader-master/results_summary.txt)
+- [images/trade_plot.png](file:///c:/Users/eshas/Downloads/RL/q-trader-master/images/trade_plot.png)
+- [images/profits_per_episode.png](file:///c:/Users/eshas/Downloads/RL/q-trader-master/images/profits_per_episode.png)
+- [images/trades_last_episode.png](file:///c:/Users/eshas/Downloads/RL/q-trader-master/images/trades_last_episode.png)
+- [summary.md](file:///C:/Users/eshas/.gemini/antigravity/brain/f50aa04d-f09d-420c-95d1-e18f65f907ce/summary.md)

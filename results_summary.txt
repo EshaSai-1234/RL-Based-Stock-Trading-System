@@ -1,0 +1,14 @@
+Training Session: 2026-02-07
+Stock: ^GSPC
+Episodes: 1 Completed
+
+Episode 0 Summary:
+- Total Profit: -$100.27
+- Status: Learning phase (Random/Initial trades)
+
+Trade Log Snapshot (Episode 0):
+- Buy/Sell actions were taken throughout the period.
+- Initial random actions resulted in a small net loss.
+
+Evaluation on ^GSPC_2011:
+- Comparison with test data shows typical early-stage RL behavior.
